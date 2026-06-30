@@ -30586,7 +30586,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OpenSearch.Client.PutPipelineDescriptor",
-      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.PutPipelineDescriptor.yml\" sourcestartlinenumber=\"1\">Descriptor for PutPipeline</p>\n<p>https://opensearch.org/docs/latest/api-reference/ingest-apis/create-update-ingest/</p>\n"
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.PutPipelineDescriptor.yml\" sourcestartlinenumber=\"1\">Descriptor for PutPipeline</p>\n<p>https://docs.opensearch.org/latest/ingest-pipelines/create-ingest/</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -30600,7 +30600,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OpenSearch.Client.PutPipelineRequest",
-      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.PutPipelineRequest.yml\" sourcestartlinenumber=\"1\">Request for PutPipeline</p>\n<p>https://opensearch.org/docs/latest/api-reference/ingest-apis/create-update-ingest/</p>\n"
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.PutPipelineRequest.yml\" sourcestartlinenumber=\"1\">Request for PutPipeline</p>\n<p>https://docs.opensearch.org/latest/ingest-pipelines/create-ingest/</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -40642,6 +40642,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.MlMemoryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.MlMemoryType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.MlMemoryType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.MlStatName.yml",
       "output": {
         ".html": {
@@ -43634,7 +43648,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.IngestApi.PutPipelineRequestParameters",
-      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.IngestApi.PutPipelineRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for PutPipeline</p>\n<p>https://opensearch.org/docs/latest/api-reference/ingest-apis/create-update-ingest/</p>\n"
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.IngestApi.PutPipelineRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for PutPipeline</p>\n<p>https://docs.opensearch.org/latest/ingest-pipelines/create-ingest/</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -43984,7 +43998,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.KnnApi.DeleteModelRequestParameters",
-      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.DeleteModelRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for DeleteModel</p>\n<p>https://opensearch.org/docs/latest/search-plugins/knn/api/#delete-model</p>\n"
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.DeleteModelRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for DeleteModel</p>\n<p>https://docs.opensearch.org/latest/vector-search/api/knn/#delete-a-model</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -43998,7 +44012,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.KnnApi.GetModelRequestParameters",
-      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.GetModelRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for GetModel</p>\n<p>https://opensearch.org/docs/latest/search-plugins/knn/api/#get-model</p>\n"
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.GetModelRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for GetModel</p>\n<p>https://docs.opensearch.org/latest/vector-search/api/knn/#get-a-model</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -44026,7 +44040,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.KnnApi.SearchModelsRequestParameters",
-      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.SearchModelsRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for SearchModels</p>\n<p>https://opensearch.org/docs/latest/search-plugins/knn/api/#search-model</p>\n"
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.SearchModelsRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for SearchModels</p>\n<p>https://docs.opensearch.org/latest/vector-search/api/knn/#search-for-a-model</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -44040,7 +44054,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.KnnApi.StatsRequestParameters",
-      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.StatsRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for Stats</p>\n<p>https://opensearch.org/docs/latest/search-plugins/knn/api/#stats</p>\n"
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.StatsRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for Stats</p>\n<p>https://docs.opensearch.org/latest/vector-search/api/knn/#stats</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -44054,7 +44068,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.KnnApi.TrainModelRequestParameters",
-      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.TrainModelRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for TrainModel</p>\n<p>https://opensearch.org/docs/latest/search-plugins/knn/api/#train-model</p>\n"
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.TrainModelRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for TrainModel</p>\n<p>https://docs.opensearch.org/latest/vector-search/api/knn/#train-a-model</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -44068,7 +44082,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.KnnApi.WarmupRequestParameters",
-      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.WarmupRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for Warmup</p>\n<p>https://opensearch.org/docs/latest/search-plugins/knn/api/#warmup-operation</p>\n"
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.KnnApi.WarmupRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for Warmup</p>\n<p>https://docs.opensearch.org/latest/vector-search/api/knn/#warmup-operation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -44548,6 +44562,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.AddAgenticMemoryRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.AddAgenticMemoryRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.AddAgenticMemoryRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.AddAgenticMemoryRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for AddAgenticMemory</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.ChunkModelRequestParameters.yml",
       "output": {
         ".html": {
@@ -44587,6 +44615,34 @@
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.MlApi.CreateControllerRequestParameters",
       "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.CreateControllerRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for CreateController</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.CreateMemoryContainerRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.CreateMemoryContainerRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.CreateMemoryContainerRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.CreateMemoryContainerRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for CreateMemoryContainer</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.CreateMemoryContainerSessionRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.CreateMemoryContainerSessionRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.CreateMemoryContainerSessionRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.CreateMemoryContainerSessionRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for CreateMemoryContainerSession</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -44646,6 +44702,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.DeleteAgenticMemoryQueryRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.DeleteAgenticMemoryQueryRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.DeleteAgenticMemoryQueryRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.DeleteAgenticMemoryQueryRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for DeleteAgenticMemoryQuery</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.DeleteAgenticMemoryRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.DeleteAgenticMemoryRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.DeleteAgenticMemoryRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.DeleteAgenticMemoryRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for DeleteAgenticMemory</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.DeleteConnectorRequestParameters.yml",
       "output": {
         ".html": {
@@ -44671,6 +44755,20 @@
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.MlApi.DeleteControllerRequestParameters",
       "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.DeleteControllerRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for DeleteController</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.DeleteMemoryContainerRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.DeleteMemoryContainerRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.DeleteMemoryContainerRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.DeleteMemoryContainerRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for DeleteMemoryContainer</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -44758,6 +44856,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.ExecuteAgentStreamRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.ExecuteAgentStreamRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.ExecuteAgentStreamRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.ExecuteAgentStreamRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for ExecuteAgentStream</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.ExecuteAlgorithmRequestParameters.yml",
       "output": {
         ".html": {
@@ -44772,6 +44884,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.ExecuteToolRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.ExecuteToolRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.ExecuteToolRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.ExecuteToolRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for ExecuteTool</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.GetAgentRequestParameters.yml",
       "output": {
         ".html": {
@@ -44783,6 +44909,20 @@
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.MlApi.GetAgentRequestParameters",
       "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.GetAgentRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for GetAgent</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.GetAgenticMemoryRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.GetAgenticMemoryRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.GetAgenticMemoryRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.GetAgenticMemoryRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for GetAgenticMemory</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -44853,6 +44993,20 @@
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.MlApi.GetControllerRequestParameters",
       "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.GetControllerRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for GetController</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.GetMemoryContainerRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.GetMemoryContainerRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.GetMemoryContainerRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.GetMemoryContainerRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for GetMemoryContainer</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -45052,6 +45206,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.PredictModelStreamRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.PredictModelStreamRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.PredictModelStreamRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.PredictModelStreamRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for PredictModelStream</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.PredictRequestParameters.yml",
       "output": {
         ".html": {
@@ -45122,6 +45290,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.SearchAgenticMemoryRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.SearchAgenticMemoryRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.SearchAgenticMemoryRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.SearchAgenticMemoryRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for SearchAgenticMemory</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.SearchAgentsRequestParameters.yml",
       "output": {
         ".html": {
@@ -45147,6 +45329,20 @@
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.MlApi.SearchConnectorsRequestParameters",
       "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.SearchConnectorsRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for SearchConnectors</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.SearchMemoryContainerRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.SearchMemoryContainerRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.SearchMemoryContainerRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.SearchMemoryContainerRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for SearchMemoryContainer</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -45276,6 +45472,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.UpdateAgenticMemoryRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.UpdateAgenticMemoryRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.UpdateAgenticMemoryRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.UpdateAgenticMemoryRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for UpdateAgenticMemory</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.UpdateConnectorRequestParameters.yml",
       "output": {
         ".html": {
@@ -45301,6 +45511,20 @@
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.MlApi.UpdateControllerRequestParameters",
       "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.UpdateControllerRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for UpdateController</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.UpdateMemoryContainerRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.MlApi.UpdateMemoryContainerRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.MlApi.UpdateMemoryContainerRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.MlApi.UpdateMemoryContainerRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for UpdateMemoryContainer</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -46452,6 +46676,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.SearchRelevanceApi.DeleteScheduledExperimentsRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.SearchRelevanceApi.DeleteScheduledExperimentsRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.SearchRelevanceApi.DeleteScheduledExperimentsRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.SearchRelevanceApi.DeleteScheduledExperimentsRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for DeleteScheduledExperiments</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.SearchRelevanceApi.DeleteSearchConfigurationsRequestParameters.yml",
       "output": {
         ".html": {
@@ -46522,6 +46760,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.SearchRelevanceApi.GetScheduledExperimentsRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.SearchRelevanceApi.GetScheduledExperimentsRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.SearchRelevanceApi.GetScheduledExperimentsRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.SearchRelevanceApi.GetScheduledExperimentsRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for GetScheduledExperiments</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.SearchRelevanceApi.GetSearchConfigurationsRequestParameters.yml",
       "output": {
         ".html": {
@@ -46575,6 +46827,20 @@
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.SearchRelevanceApi.PostQuerySetsRequestParameters",
       "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.SearchRelevanceApi.PostQuerySetsRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for PostQuerySets</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.SearchRelevanceApi.PostScheduledExperimentsRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.SearchRelevanceApi.PostScheduledExperimentsRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.SearchRelevanceApi.PostScheduledExperimentsRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.SearchRelevanceApi.PostScheduledExperimentsRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for PostScheduledExperiments</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -48464,6 +48730,48 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OpenSearch.Net.Specification.TransformsApi",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.UbiApi.InitializeRequestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.UbiApi.InitializeRequestParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.UbiApi.InitializeRequestParameters",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.UbiApi.InitializeRequestParameters.yml\" sourcestartlinenumber=\"1\">Request options for Initialize</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.UbiApi.LowLevelUbiNamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.UbiApi.LowLevelUbiNamespace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.UbiApi.LowLevelUbiNamespace",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Net.Specification.UbiApi.LowLevelUbiNamespace.yml\" sourcestartlinenumber=\"1\">Ubi APIs.</p>\n<p>Not intended to be instantiated directly. Use the <xref href=\"OpenSearch.Net.IOpenSearchLowLevelClient.Ubi\" data-throw-if-not-resolved=\"false\"></xref> property\non <xref href=\"OpenSearch.Net.IOpenSearchLowLevelClient\" data-throw-if-not-resolved=\"false\"></xref>.\n</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Net.Specification.UbiApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Net.Specification.UbiApi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Net.Specification.UbiApi",
       "Summary": null
     },
     {

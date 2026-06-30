@@ -363,12 +363,14 @@ public Time MasterTimeout { get; set; }</code></pre>
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_GetSnapshotRequest_Verbose.md&amp;value=---%0Auid%3A%20OpenSearch.Client.GetSnapshotRequest.Verbose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Requests.Snapshot.cs/#L519">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Requests.Snapshot.cs/#L521">View Source</a>
   </span>
   <a id="OpenSearch_Client_GetSnapshotRequest_Verbose_" data-uid="OpenSearch.Client.GetSnapshotRequest.Verbose*"></a>
   <h4 id="OpenSearch_Client_GetSnapshotRequest_Verbose" data-uid="OpenSearch.Client.GetSnapshotRequest.Verbose">Verbose</h4>
-  <div class="markdown level1 summary"><p>When <code>true</code>, returns additional information about each snapshot such as the version of OpenSearch which took the snapshot, the start
-and end times of the snapshot, and the number of shards contained in the snapshot.</p>
+  <div class="markdown level1 summary"><p>When <code>true</code>, returns additional information about each snapshot, such as the version of OpenSearch which took the snapshot, the start
+and end times of the snapshot, and the number of shards contained in the snapshot. When <code>false</code>, returns only snapshot names and
+contained indexes. This is useful when the snapshots belong to a cloud-based repository, where each blob read is a cost or performance
+concern.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
