@@ -22470,6 +22470,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.IWildcardProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Client.IWildcardProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Client.IWildcardProperty",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.IWildcardProperty.yml\" sourcestartlinenumber=\"1\">A wildcard field stores values optimised for wildcard grep-like queries.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.IWildcardQuery.yml",
       "output": {
         ".html": {
@@ -39141,6 +39155,48 @@
       "IsMRef": true,
       "Title": "OpenSearch.Client.WhitespaceTokenizerDescriptor",
       "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.WhitespaceTokenizerDescriptor.yml\" sourcestartlinenumber=\"1\">A tokenizer of type whitespace that divides text at whitespace.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.WildcardAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Client.WildcardAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Client.WildcardAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.WildcardProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Client.WildcardProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Client.WildcardProperty",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.WildcardProperty.yml\" sourcestartlinenumber=\"1\">A wildcard field stores values optimised for wildcard grep-like queries.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.WildcardPropertyDescriptor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Client.WildcardPropertyDescriptor-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Client.WildcardPropertyDescriptor<T>",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.WildcardPropertyDescriptor-1.yml\" sourcestartlinenumber=\"1\">A wildcard field stores values optimised for wildcard grep-like queries.</p>\n"
     },
     {
       "type": "ManagedReference",
