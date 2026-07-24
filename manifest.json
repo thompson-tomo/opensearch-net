@@ -17388,6 +17388,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.IKnnQueryRescoreContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Client.IKnnQueryRescoreContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Client.IKnnQueryRescoreContext",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.IKnnQueryRescoreContext.yml\" sourcestartlinenumber=\"1\">Configures rescoring of approximate k-NN search results using full-precision vectors.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.IKnnVectorProperty.yml",
       "output": {
         ".html": {
@@ -25057,6 +25071,34 @@
       "IsMRef": true,
       "Title": "OpenSearch.Client.KnnQueryDescriptor<T>",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.KnnQueryRescoreContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Client.KnnQueryRescoreContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Client.KnnQueryRescoreContext",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.KnnQueryRescoreContext.yml\" sourcestartlinenumber=\"1\">Configures rescoring of approximate k-NN search results using full-precision vectors.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.KnnQueryRescoreContextDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Client.KnnQueryRescoreContextDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Client.KnnQueryRescoreContextDescriptor",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.KnnQueryRescoreContextDescriptor.yml\" sourcestartlinenumber=\"1\">A descriptor for configuring k-NN query rescoring.</p>\n"
     },
     {
       "type": "ManagedReference",
