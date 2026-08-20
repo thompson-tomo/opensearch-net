@@ -2170,6 +2170,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.BulkStreamDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Client.BulkStreamDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Client.BulkStreamDescriptor",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.BulkStreamDescriptor.yml\" sourcestartlinenumber=\"1\">Descriptor for BulkStream</p>\n<p>https://opensearch.org/docs/latest/api-reference/document-apis/bulk-streaming/</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.BulkStreamRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Client.BulkStreamRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Client.BulkStreamRequest",
+      "Summary": "<p sourcefile=\"obj/temp/docfxapi/OpenSearch.Client.BulkStreamRequest.yml\" sourcestartlinenumber=\"1\">Request for BulkStream</p>\n<p>https://opensearch.org/docs/latest/api-reference/document-apis/bulk-streaming/</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.BulkStreamResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Client.BulkStreamResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Client.BulkStreamResponse",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.BulkUpdateDescriptor-2.yml",
       "output": {
         ".html": {
@@ -13016,6 +13058,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "OpenSearch.Client.IBulkRequest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/OpenSearch.Client.IBulkStreamRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenSearch.Client.IBulkStreamRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OpenSearch.Client.IBulkStreamRequest",
       "Summary": null
     },
     {
