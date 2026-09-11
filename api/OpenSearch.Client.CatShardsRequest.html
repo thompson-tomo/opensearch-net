@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class CatShardsRequest | OpenSearch.Net ">
     
-    <meta name="description" content="Request for Shards https://opensearch.org/docs/latest/api-reference/cat/cat-shards/">
+    <meta name="description" content="Request for Shards https://docs.opensearch.org/latest/api-reference/cat/cat-shards/">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -82,7 +82,7 @@
 
   <h1 id="OpenSearch_Client_CatShardsRequest" data-uid="OpenSearch.Client.CatShardsRequest" class="text-break">Class CatShardsRequest</h1>
   <div class="markdown level0 summary"><p>Request for Shards</p>
-<p>https://opensearch.org/docs/latest/api-reference/cat/cat-shards/</p>
+<p>https://docs.opensearch.org/latest/api-reference/cat/cat-shards/</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -141,6 +141,9 @@
     </div>
     <div>
       <a class="xref" href="OpenSearch.Client.RequestBase-1.html#OpenSearch_Client_RequestBase_1_SetAcceptHeader_System_String_">RequestBase&lt;CatShardsRequestParameters&gt;.SetAcceptHeader(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="OpenSearch.Client.RequestBase-1.html#OpenSearch_Client_RequestBase_1_SetAcceptHeader_System_Enum_">RequestBase&lt;CatShardsRequestParameters&gt;.SetAcceptHeader(Enum)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -303,7 +306,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Format { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public CatResponseFormat? Format { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -315,7 +318,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><a class="xref" href="OpenSearch.Net.CatResponseFormat.html">CatResponseFormat</a>?</td>
         <td></td>
       </tr>
     </tbody>

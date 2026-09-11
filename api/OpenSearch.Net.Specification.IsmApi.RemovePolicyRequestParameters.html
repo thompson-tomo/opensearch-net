@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class RemovePolicyRequestParameters | OpenSearch.Net ">
     
-    <meta name="description" content="Request options for RemovePolicy https://opensearch.org/docs/latest/im-plugin/ism/api/#remove-policy">
+    <meta name="description" content="Request options for RemovePolicy https://docs.opensearch.org/latest/im-plugin/ism/api/#remove-policy-from-index">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -82,7 +82,7 @@
 
   <h1 id="OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters" data-uid="OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters" class="text-break">Class RemovePolicyRequestParameters</h1>
   <div class="markdown level0 summary"><p>Request options for RemovePolicy</p>
-<p>https://opensearch.org/docs/latest/im-plugin/ism/api/#remove-policy</p>
+<p>https://docs.opensearch.org/latest/im-plugin/ism/api/#remove-policy-from-index</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -128,6 +128,9 @@
       <a class="xref" href="OpenSearch.Net.RequestParameters-1.html#OpenSearch_Net_RequestParameters_1_SetAcceptHeader_System_String_">RequestParameters&lt;RemovePolicyRequestParameters&gt;.SetAcceptHeader(string)</a>
     </div>
     <div>
+      <a class="xref" href="OpenSearch.Net.RequestParameters-1.html#OpenSearch_Net_RequestParameters_1_SetAcceptHeader_System_Enum_">RequestParameters&lt;RemovePolicyRequestParameters&gt;.SetAcceptHeader(Enum)</a>
+    </div>
+    <div>
       <a class="xref" href="OpenSearch.Net.RequestParameters-1.html#OpenSearch_Net_RequestParameters_1_AcceptHeaderFromFormat_System_String_">RequestParameters&lt;RemovePolicyRequestParameters&gt;.AcceptHeaderFromFormat(string)</a>
     </div>
     <div>
@@ -165,7 +168,7 @@
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_DefaultHttpMethod.md&amp;value=---%0Auid%3A%20OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.DefaultHttpMethod%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Net/_Generated/Api/RequestParameters/RequestParameters.Ism.cs/#L189">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Net/_Generated/Api/RequestParameters/RequestParameters.Ism.cs/#L199">View Source</a>
   </span>
   <a id="OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_DefaultHttpMethod_" data-uid="OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.DefaultHttpMethod*"></a>
   <h4 id="OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_DefaultHttpMethod" data-uid="OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.DefaultHttpMethod">DefaultHttpMethod</h4>
@@ -197,15 +200,17 @@
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_Index.md&amp;value=---%0Auid%3A%20OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.Index%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Net/_Generated/Api/RequestParameters/RequestParameters.Ism.cs/#L192">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Net/_Generated/Api/RequestParameters/RequestParameters.Ism.cs/#L207">View Source</a>
   </span>
   <a id="OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_Index_" data-uid="OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.Index*"></a>
   <h4 id="OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_Index" data-uid="OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.Index">Index</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A comma-separated list of data streams, indexes, and aliases used to limit the request. Supports wildcards (<code><em></em></code>). To target all data
+streams and indexes, omit this parameter or use <code></code> or <code>_all</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Index { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string[] Index { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -217,7 +222,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -227,7 +232,7 @@
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_OperationName.md&amp;value=---%0Auid%3A%20OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.OperationName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Net/_Generated/Api/RequestParameters/RequestParameters.Ism.cs/#L191">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Net/_Generated/Api/RequestParameters/RequestParameters.Ism.cs/#L201">View Source</a>
   </span>
   <a id="OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_OperationName_" data-uid="OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.OperationName*"></a>
   <h4 id="OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_OperationName" data-uid="OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.OperationName">OperationName</h4>
@@ -262,7 +267,7 @@
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_SupportsBody.md&amp;value=---%0Auid%3A%20OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.SupportsBody%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Net/_Generated/Api/RequestParameters/RequestParameters.Ism.cs/#L190">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Net/_Generated/Api/RequestParameters/RequestParameters.Ism.cs/#L200">View Source</a>
   </span>
   <a id="OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_SupportsBody_" data-uid="OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.SupportsBody*"></a>
   <h4 id="OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters_SupportsBody" data-uid="OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters.SupportsBody">SupportsBody</h4>
@@ -309,7 +314,7 @@
                     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Net_Specification_IsmApi_RemovePolicyRequestParameters.md&amp;value=---%0Auid%3A%20OpenSearch.Net.Specification.IsmApi.RemovePolicyRequestParameters%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Net/_Generated/Api/RequestParameters/RequestParameters.Ism.cs/#L186" class="contribution-link">View Source</a>
+                    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Net/_Generated/Api/RequestParameters/RequestParameters.Ism.cs/#L196" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class PostStatsRequestParameters | OpenSearch.Net ">
     
-    <meta name="description" content="Request options for PostStats https://opensearch.org/docs/latest/search-plugins/sql/monitoring/">
+    <meta name="description" content="Request options for PostStats https://docs.opensearch.org/latest/search-plugins/sql/monitoring/">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -82,7 +82,7 @@
 
   <h1 id="OpenSearch_Net_Specification_SqlApi_PostStatsRequestParameters" data-uid="OpenSearch.Net.Specification.SqlApi.PostStatsRequestParameters" class="text-break">Class PostStatsRequestParameters</h1>
   <div class="markdown level0 summary"><p>Request options for PostStats</p>
-<p>https://opensearch.org/docs/latest/search-plugins/sql/monitoring/</p>
+<p>https://docs.opensearch.org/latest/search-plugins/sql/monitoring/</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -126,6 +126,9 @@
     </div>
     <div>
       <a class="xref" href="OpenSearch.Net.RequestParameters-1.html#OpenSearch_Net_RequestParameters_1_SetAcceptHeader_System_String_">RequestParameters&lt;PostStatsRequestParameters&gt;.SetAcceptHeader(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="OpenSearch.Net.RequestParameters-1.html#OpenSearch_Net_RequestParameters_1_SetAcceptHeader_System_Enum_">RequestParameters&lt;PostStatsRequestParameters&gt;.SetAcceptHeader(Enum)</a>
     </div>
     <div>
       <a class="xref" href="OpenSearch.Net.RequestParameters-1.html#OpenSearch_Net_RequestParameters_1_AcceptHeaderFromFormat_System_String_">RequestParameters&lt;PostStatsRequestParameters&gt;.AcceptHeaderFromFormat(string)</a>
@@ -206,7 +209,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Format { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public SqlResponseFormat? Format { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -218,7 +221,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><a class="xref" href="OpenSearch.Net.SqlResponseFormat.html">SqlResponseFormat</a>?</td>
         <td></td>
       </tr>
     </tbody>

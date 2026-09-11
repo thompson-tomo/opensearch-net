@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class CreatePitDescriptor | OpenSearch.Net ">
     
-    <meta name="description" content="Descriptor for CreatePit https://opensearch.org/docs/latest/search-plugins/point-in-time-api/#create-a-pit">
+    <meta name="description" content="Descriptor for CreatePit https://docs.opensearch.org/latest/api-reference/search-apis/point-in-time-api/#create-a-pit">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -82,7 +82,7 @@
 
   <h1 id="OpenSearch_Client_CreatePitDescriptor" data-uid="OpenSearch.Client.CreatePitDescriptor" class="text-break">Class CreatePitDescriptor</h1>
   <div class="markdown level0 summary"><p>Descriptor for CreatePit</p>
-<p>https://opensearch.org/docs/latest/search-plugins/point-in-time-api/#create-a-pit</p>
+<p>https://docs.opensearch.org/latest/api-reference/search-apis/point-in-time-api/#create-a-pit</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -154,6 +154,9 @@
     </div>
     <div>
       <a class="xref" href="OpenSearch.Client.RequestBase-1.html#OpenSearch_Client_RequestBase_1_SetAcceptHeader_System_String_">RequestBase&lt;CreatePitRequestParameters&gt;.SetAcceptHeader(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="OpenSearch.Client.RequestBase-1.html#OpenSearch_Client_RequestBase_1_SetAcceptHeader_System_Enum_">RequestBase&lt;CreatePitRequestParameters&gt;.SetAcceptHeader(Enum)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -270,10 +273,58 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_CreatePitDescriptor_AllowPartialPitCreation_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.CreatePitDescriptor.AllowPartialPitCreation(System.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_CreatePitDescriptor_AllowNoIndices_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.CreatePitDescriptor.AllowNoIndices(System.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L449">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_CreatePitDescriptor_AllowNoIndices_" data-uid="OpenSearch.Client.CreatePitDescriptor.AllowNoIndices*"></a>
+  <h4 id="OpenSearch_Client_CreatePitDescriptor_AllowNoIndices_System_Nullable_System_Boolean__" data-uid="OpenSearch.Client.CreatePitDescriptor.AllowNoIndices(System.Nullable{System.Boolean})">AllowNoIndices(bool?)</h4>
+  <div class="markdown level1 summary"><p>If <code>false</code>, the request returns an error if any wildcard expression, index alias, or <code>_all</code> value targets only missing or closed indexes. This behavior applies even if the request targets other open indexes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CreatePitDescriptor AllowNoIndices(bool? allownoindices = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
+        <td><span class="parametername">allownoindices</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.CreatePitDescriptor.html">CreatePitDescriptor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_CreatePitDescriptor_AllowPartialPitCreation_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.CreatePitDescriptor.AllowPartialPitCreation(System.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L453">View Source</a>
   </span>
   <a id="OpenSearch_Client_CreatePitDescriptor_AllowPartialPitCreation_" data-uid="OpenSearch.Client.CreatePitDescriptor.AllowPartialPitCreation*"></a>
   <h4 id="OpenSearch_Client_CreatePitDescriptor_AllowPartialPitCreation_System_Nullable_System_Boolean__" data-uid="OpenSearch.Client.CreatePitDescriptor.AllowPartialPitCreation(System.Nullable{System.Boolean})">AllowPartialPitCreation(bool?)</h4>
@@ -321,7 +372,7 @@
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_CreatePitDescriptor_ExpandWildcards_System_Nullable_OpenSearch_Net_ExpandWildcards__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.CreatePitDescriptor.ExpandWildcards(System.Nullable%7BOpenSearch.Net.ExpandWildcards%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L453">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L457">View Source</a>
   </span>
   <a id="OpenSearch_Client_CreatePitDescriptor_ExpandWildcards_" data-uid="OpenSearch.Client.CreatePitDescriptor.ExpandWildcards*"></a>
   <h4 id="OpenSearch_Client_CreatePitDescriptor_ExpandWildcards_System_Nullable_OpenSearch_Net_ExpandWildcards__" data-uid="OpenSearch.Client.CreatePitDescriptor.ExpandWildcards(System.Nullable{OpenSearch.Net.ExpandWildcards})">ExpandWildcards(ExpandWildcards?)</h4>
@@ -345,6 +396,102 @@
       <tr>
         <td><a class="xref" href="OpenSearch.Net.ExpandWildcards.html">ExpandWildcards</a>?</td>
         <td><span class="parametername">expandwildcards</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.CreatePitDescriptor.html">CreatePitDescriptor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_CreatePitDescriptor_IgnoreThrottled_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.CreatePitDescriptor.IgnoreThrottled(System.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L461">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_CreatePitDescriptor_IgnoreThrottled_" data-uid="OpenSearch.Client.CreatePitDescriptor.IgnoreThrottled*"></a>
+  <h4 id="OpenSearch_Client_CreatePitDescriptor_IgnoreThrottled_System_Nullable_System_Boolean__" data-uid="OpenSearch.Client.CreatePitDescriptor.IgnoreThrottled(System.Nullable{System.Boolean})">IgnoreThrottled(bool?)</h4>
+  <div class="markdown level1 summary"><p>If <code>true</code>, concrete, expanded or aliased indexes will be ignored when frozen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CreatePitDescriptor IgnoreThrottled(bool? ignorethrottled = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
+        <td><span class="parametername">ignorethrottled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.CreatePitDescriptor.html">CreatePitDescriptor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_CreatePitDescriptor_IgnoreUnavailable_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.CreatePitDescriptor.IgnoreUnavailable(System.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L465">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_CreatePitDescriptor_IgnoreUnavailable_" data-uid="OpenSearch.Client.CreatePitDescriptor.IgnoreUnavailable*"></a>
+  <h4 id="OpenSearch_Client_CreatePitDescriptor_IgnoreUnavailable_System_Nullable_System_Boolean__" data-uid="OpenSearch.Client.CreatePitDescriptor.IgnoreUnavailable(System.Nullable{System.Boolean})">IgnoreUnavailable(bool?)</h4>
+  <div class="markdown level1 summary"><p>If <code>false</code>, the request returns an error if it targets a missing or closed index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CreatePitDescriptor IgnoreUnavailable(bool? ignoreunavailable = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
+        <td><span class="parametername">ignoreunavailable</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -463,7 +610,7 @@
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_CreatePitDescriptor_KeepAlive_OpenSearch_Client_Time_.md&amp;value=---%0Auid%3A%20OpenSearch.Client.CreatePitDescriptor.KeepAlive(OpenSearch.Client.Time)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L457">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L469">View Source</a>
   </span>
   <a id="OpenSearch_Client_CreatePitDescriptor_KeepAlive_" data-uid="OpenSearch.Client.CreatePitDescriptor.KeepAlive*"></a>
   <h4 id="OpenSearch_Client_CreatePitDescriptor_KeepAlive_OpenSearch_Client_Time_" data-uid="OpenSearch.Client.CreatePitDescriptor.KeepAlive(OpenSearch.Client.Time)">KeepAlive(Time)</h4>
@@ -511,7 +658,7 @@
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_CreatePitDescriptor_Preference_System_String_.md&amp;value=---%0Auid%3A%20OpenSearch.Client.CreatePitDescriptor.Preference(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L460">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L472">View Source</a>
   </span>
   <a id="OpenSearch_Client_CreatePitDescriptor_Preference_" data-uid="OpenSearch.Client.CreatePitDescriptor.Preference*"></a>
   <h4 id="OpenSearch_Client_CreatePitDescriptor_Preference_System_String_" data-uid="OpenSearch.Client.CreatePitDescriptor.Preference(System.String)">Preference(string)</h4>
@@ -559,7 +706,7 @@
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_CreatePitDescriptor_Routing_OpenSearch_Client_Routing_.md&amp;value=---%0Auid%3A%20OpenSearch.Client.CreatePitDescriptor.Routing(OpenSearch.Client.Routing)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L469">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/_Generated/Descriptors.NoNamespace.cs/#L481">View Source</a>
   </span>
   <a id="OpenSearch_Client_CreatePitDescriptor_Routing_" data-uid="OpenSearch.Client.CreatePitDescriptor.Routing*"></a>
   <h4 id="OpenSearch_Client_CreatePitDescriptor_Routing_OpenSearch_Client_Routing_" data-uid="OpenSearch.Client.CreatePitDescriptor.Routing(OpenSearch.Client.Routing)">Routing(Routing)</h4>
