@@ -118,14 +118,80 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_ExpandNestedDocs.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.ExpandNestedDocs%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L103">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_INeuralQuery_ExpandNestedDocs_" data-uid="OpenSearch.Client.INeuralQuery.ExpandNestedDocs*"></a>
+  <h4 id="OpenSearch_Client_INeuralQuery_ExpandNestedDocs" data-uid="OpenSearch.Client.INeuralQuery.ExpandNestedDocs">ExpandNestedDocs</h4>
+  <div class="markdown level1 summary"><p>When <code>true</code>, retrieves scores for all nested field documents within each parent document.
+Used with nested queries.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember(Name = &quot;expand_nested_docs&quot;)]
+bool? ExpandNestedDocs { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_Filter.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.Filter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L67">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_INeuralQuery_Filter_" data-uid="OpenSearch.Client.INeuralQuery.Filter*"></a>
+  <h4 id="OpenSearch_Client_INeuralQuery_Filter" data-uid="OpenSearch.Client.INeuralQuery.Filter">Filter</h4>
+  <div class="markdown level1 summary"><p>A query used to reduce the number of documents considered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember(Name = &quot;filter&quot;)]
+IQueryContainer Filter { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.IQueryContainer.html">IQueryContainer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_K.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.K%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L29">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L40">View Source</a>
   </span>
   <a id="OpenSearch_Client_INeuralQuery_K_" data-uid="OpenSearch.Client.INeuralQuery.K*"></a>
   <h4 id="OpenSearch_Client_INeuralQuery_K" data-uid="OpenSearch.Client.INeuralQuery.K">K</h4>
-  <div class="markdown level1 summary"><p>The number of results the k-NN search returns.</p>
+  <div class="markdown level1 summary"><p>The number of results the k-NN search returns. Only one of <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_K">K</a>, <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MaxDistance">MaxDistance</a>,
+or <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MinScore">MinScore</a> can be specified; if none is set, the server default is <code>k = 10</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -150,10 +216,109 @@ int? K { get; set; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_MaxDistance.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.MaxDistance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L47">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_INeuralQuery_MaxDistance_" data-uid="OpenSearch.Client.INeuralQuery.MaxDistance*"></a>
+  <h4 id="OpenSearch_Client_INeuralQuery_MaxDistance" data-uid="OpenSearch.Client.INeuralQuery.MaxDistance">MaxDistance</h4>
+  <div class="markdown level1 summary"><p>The maximum physical vector space distance required in order for a neighbor to be considered a hit (radial search).
+Only one of <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_K">K</a>, <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MaxDistance">MaxDistance</a>, or <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MinScore">MinScore</a> can be specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember(Name = &quot;max_distance&quot;)]
+float? MaxDistance { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_MethodParameters.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.MethodParameters%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L88">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_INeuralQuery_MethodParameters_" data-uid="OpenSearch.Client.INeuralQuery.MethodParameters*"></a>
+  <h4 id="OpenSearch_Client_INeuralQuery_MethodParameters" data-uid="OpenSearch.Client.INeuralQuery.MethodParameters">MethodParameters</h4>
+  <div class="markdown level1 summary"><p>Additional engine-specific parameters that control the approximate k-NN search at query time,
+such as <code>ef_search</code> (HNSW) or <code>nprobes</code> (IVF).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember(Name = &quot;method_parameters&quot;)]
+IDictionary&lt;string, object&gt; MethodParameters { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_MinScore.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.MinScore%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L54">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_INeuralQuery_MinScore_" data-uid="OpenSearch.Client.INeuralQuery.MinScore*"></a>
+  <h4 id="OpenSearch_Client_INeuralQuery_MinScore" data-uid="OpenSearch.Client.INeuralQuery.MinScore">MinScore</h4>
+  <div class="markdown level1 summary"><p>The minimum similarity score required in order for a neighbor to be considered a hit (radial search).
+Only one of <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_K">K</a>, <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MaxDistance">MaxDistance</a>, or <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MinScore">MinScore</a> can be specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember(Name = &quot;min_score&quot;)]
+float? MinScore { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_ModelId.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.ModelId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L36">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L61">View Source</a>
   </span>
   <a id="OpenSearch_Client_INeuralQuery_ModelId_" data-uid="OpenSearch.Client.INeuralQuery.ModelId*"></a>
   <h4 id="OpenSearch_Client_INeuralQuery_ModelId" data-uid="OpenSearch.Client.INeuralQuery.ModelId">ModelId</h4>
@@ -183,20 +348,154 @@ string ModelId { get; set; }</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_QueryImage.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.QueryImage%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L33">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_INeuralQuery_QueryImage_" data-uid="OpenSearch.Client.INeuralQuery.QueryImage*"></a>
+  <h4 id="OpenSearch_Client_INeuralQuery_QueryImage" data-uid="OpenSearch.Client.INeuralQuery.QueryImage">QueryImage</h4>
+  <div class="markdown level1 summary"><p>A Base64-encoded string that corresponds to the query image from which to generate vector embeddings.
+You must specify at least one of <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryText">QueryText</a> or <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryImage">QueryImage</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember(Name = &quot;query_image&quot;)]
+string QueryImage { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_QueryText.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.QueryText%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L23">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L26">View Source</a>
   </span>
   <a id="OpenSearch_Client_INeuralQuery_QueryText_" data-uid="OpenSearch.Client.INeuralQuery.QueryText*"></a>
   <h4 id="OpenSearch_Client_INeuralQuery_QueryText" data-uid="OpenSearch.Client.INeuralQuery.QueryText">QueryText</h4>
-  <div class="markdown level1 summary"><p>The query text from which to produce queries.</p>
+  <div class="markdown level1 summary"><p>The query text from which to produce queries.
+You must specify at least one of <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryText">QueryText</a> or <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryImage">QueryImage</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[DataMember(Name = &quot;query_text&quot;)]
 string QueryText { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_QueryTokens.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.QueryTokens%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L74">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_INeuralQuery_QueryTokens_" data-uid="OpenSearch.Client.INeuralQuery.QueryTokens*"></a>
+  <h4 id="OpenSearch_Client_INeuralQuery_QueryTokens" data-uid="OpenSearch.Client.INeuralQuery.QueryTokens">QueryTokens</h4>
+  <div class="markdown level1 summary"><p>A raw sparse vector, expressed as tokens and their weights. Used as an alternative to
+<a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryText">QueryText</a> for direct vector input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember(Name = &quot;query_tokens&quot;)]
+IDictionary&lt;string, float&gt; QueryTokens { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_Rescore.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.Rescore%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L96">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_INeuralQuery_Rescore_" data-uid="OpenSearch.Client.INeuralQuery.Rescore*"></a>
+  <h4 id="OpenSearch_Client_INeuralQuery_Rescore" data-uid="OpenSearch.Client.INeuralQuery.Rescore">Rescore</h4>
+  <div class="markdown level1 summary"><p>Controls the rescoring of approximate k-NN search results using full-precision vectors.
+Pass a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> to enable or disable rescoring, or a <a class="xref" href="OpenSearch.Client.KnnQueryRescoreContext.html">KnnQueryRescoreContext</a>
+to configure it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember(Name = &quot;rescore&quot;)]
+Union&lt;bool, KnnQueryRescoreContext&gt; Rescore { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.Union-2.html">Union</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>, <a class="xref" href="OpenSearch.Client.KnnQueryRescoreContext.html">KnnQueryRescoreContext</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery_SemanticFieldSearchAnalyzer.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery.SemanticFieldSearchAnalyzer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L81">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_INeuralQuery_SemanticFieldSearchAnalyzer_" data-uid="OpenSearch.Client.INeuralQuery.SemanticFieldSearchAnalyzer*"></a>
+  <h4 id="OpenSearch_Client_INeuralQuery_SemanticFieldSearchAnalyzer" data-uid="OpenSearch.Client.INeuralQuery.SemanticFieldSearchAnalyzer">SemanticFieldSearchAnalyzer</h4>
+  <div class="markdown level1 summary"><p>An analyzer for tokenizing <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryText">QueryText</a> when using a sparse encoding model.
+Cannot be used together with <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_ModelId">ModelId</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember(Name = &quot;semantic_field_search_analyzer&quot;)]
+string SemanticFieldSearchAnalyzer { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -229,7 +528,7 @@ string QueryText { get; set; }</code></pre>
                     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_INeuralQuery.md&amp;value=---%0Auid%3A%20OpenSearch.Client.INeuralQuery%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L18" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

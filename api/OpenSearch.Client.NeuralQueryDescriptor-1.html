@@ -177,7 +177,7 @@
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_Conditionless.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.Conditionless%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L62">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L153">View Source</a>
   </span>
   <a id="OpenSearch_Client_NeuralQueryDescriptor_1_Conditionless_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.Conditionless*"></a>
   <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_Conditionless" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.Conditionless">Conditionless</h4>
@@ -210,14 +210,112 @@ sent to OpenSearch.</p>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_ExpandNestedDocs_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.ExpandNestedDocs(System.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L210">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_NeuralQueryDescriptor_1_ExpandNestedDocs_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.ExpandNestedDocs*"></a>
+  <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_ExpandNestedDocs_System_Nullable_System_Boolean__" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.ExpandNestedDocs(System.Nullable{System.Boolean})">ExpandNestedDocs(bool?)</h4>
+  <div class="markdown level1 summary"><p>When <code>true</code>, retrieves scores for all nested field documents within each parent document.
+Used with nested queries.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralQueryDescriptor&lt;T&gt; ExpandNestedDocs(bool? expandNestedDocs = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
+        <td><span class="parametername">expandNestedDocs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.NeuralQueryDescriptor-1.html">NeuralQueryDescriptor</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_Filter_System_Func_OpenSearch_Client_QueryContainerDescriptor__0__OpenSearch_Client_QueryContainer__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.Filter(System.Func%7BOpenSearch.Client.QueryContainerDescriptor%7B%600%7D%2COpenSearch.Client.QueryContainer%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L186">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_NeuralQueryDescriptor_1_Filter_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.Filter*"></a>
+  <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_Filter_System_Func_OpenSearch_Client_QueryContainerDescriptor__0__OpenSearch_Client_QueryContainer__" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.Filter(System.Func{OpenSearch.Client.QueryContainerDescriptor{`0},OpenSearch.Client.QueryContainer})">Filter(Func&lt;QueryContainerDescriptor&lt;T&gt;, QueryContainer&gt;)</h4>
+  <div class="markdown level1 summary"><p>A query used to reduce the number of documents considered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralQueryDescriptor&lt;T&gt; Filter(Func&lt;QueryContainerDescriptor&lt;T&gt;, QueryContainer&gt; filterSelector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="OpenSearch.Client.QueryContainerDescriptor-1.html">QueryContainerDescriptor</a>&lt;T&gt;, <a class="xref" href="OpenSearch.Client.QueryContainer.html">QueryContainer</a>&gt;</td>
+        <td><span class="parametername">filterSelector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.NeuralQueryDescriptor-1.html">NeuralQueryDescriptor</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_K_System_Nullable_System_Int32__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.K(System.Nullable%7BSystem.Int32%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L71">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L174">View Source</a>
   </span>
   <a id="OpenSearch_Client_NeuralQueryDescriptor_1_K_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.K*"></a>
   <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_K_System_Nullable_System_Int32__" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.K(System.Nullable{System.Int32})">K(int?)</h4>
-  <div class="markdown level1 summary"><p>The number of results the k-NN search returns.</p>
+  <div class="markdown level1 summary"><p>The number of results the k-NN search returns. Only one of <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_K">K</a>, <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MaxDistance">MaxDistance</a>,
+or <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MinScore">MinScore</a> can be specified; if none is set, the server default is <code>k = 10</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -258,10 +356,157 @@ sent to OpenSearch.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_MaxDistance_System_Nullable_System_Single__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.MaxDistance(System.Nullable%7BSystem.Single%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L177">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_NeuralQueryDescriptor_1_MaxDistance_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.MaxDistance*"></a>
+  <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_MaxDistance_System_Nullable_System_Single__" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.MaxDistance(System.Nullable{System.Single})">MaxDistance(float?)</h4>
+  <div class="markdown level1 summary"><p>The maximum physical vector space distance required in order for a neighbor to be considered a hit (radial search).
+Only one of <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_K">K</a>, <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MaxDistance">MaxDistance</a>, or <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MinScore">MinScore</a> can be specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralQueryDescriptor&lt;T&gt; MaxDistance(float? maxDistance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</td>
+        <td><span class="parametername">maxDistance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.NeuralQueryDescriptor-1.html">NeuralQueryDescriptor</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_MethodParameters_System_Func_OpenSearch_Client_FluentDictionary_System_String_System_Object__OpenSearch_Client_FluentDictionary_System_String_System_Object___.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.MethodParameters(System.Func%7BOpenSearch.Client.FluentDictionary%7BSystem.String%2CSystem.Object%7D%2COpenSearch.Client.FluentDictionary%7BSystem.String%2CSystem.Object%7D%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L198">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_NeuralQueryDescriptor_1_MethodParameters_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.MethodParameters*"></a>
+  <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_MethodParameters_System_Func_OpenSearch_Client_FluentDictionary_System_String_System_Object__OpenSearch_Client_FluentDictionary_System_String_System_Object___" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.MethodParameters(System.Func{OpenSearch.Client.FluentDictionary{System.String,System.Object},OpenSearch.Client.FluentDictionary{System.String,System.Object}})">MethodParameters(Func&lt;FluentDictionary&lt;string, object&gt;, FluentDictionary&lt;string, object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Additional engine-specific parameters that control the approximate k-NN search at query time,
+such as <code>ef_search</code> (HNSW) or <code>nprobes</code> (IVF).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralQueryDescriptor&lt;T&gt; MethodParameters(Func&lt;FluentDictionary&lt;string, object&gt;, FluentDictionary&lt;string, object&gt;&gt; selector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="OpenSearch.Client.FluentDictionary-2.html">FluentDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;, <a class="xref" href="OpenSearch.Client.FluentDictionary-2.html">FluentDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.NeuralQueryDescriptor-1.html">NeuralQueryDescriptor</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_MinScore_System_Nullable_System_Single__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.MinScore(System.Nullable%7BSystem.Single%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L180">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_NeuralQueryDescriptor_1_MinScore_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.MinScore*"></a>
+  <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_MinScore_System_Nullable_System_Single__" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.MinScore(System.Nullable{System.Single})">MinScore(float?)</h4>
+  <div class="markdown level1 summary"><p>The minimum similarity score required in order for a neighbor to be considered a hit (radial search).
+Only one of <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_K">K</a>, <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MaxDistance">MaxDistance</a>, or <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_MinScore">MinScore</a> can be specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralQueryDescriptor&lt;T&gt; MinScore(float? minScore)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</td>
+        <td><span class="parametername">minScore</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.NeuralQueryDescriptor-1.html">NeuralQueryDescriptor</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_ModelId_System_String_.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.ModelId(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L74">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L183">View Source</a>
   </span>
   <a id="OpenSearch_Client_NeuralQueryDescriptor_1_ModelId_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.ModelId*"></a>
   <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_ModelId_System_String_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.ModelId(System.String)">ModelId(string)</h4>
@@ -307,14 +552,64 @@ The model must be indexed in OpenSearch before it can be used in Neural Search.<
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_QueryImage_System_String_.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.QueryImage(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L171">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_NeuralQueryDescriptor_1_QueryImage_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.QueryImage*"></a>
+  <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_QueryImage_System_String_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.QueryImage(System.String)">QueryImage(string)</h4>
+  <div class="markdown level1 summary"><p>A Base64-encoded string that corresponds to the query image from which to generate vector embeddings.
+You must specify at least one of <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryText">QueryText</a> or <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryImage">QueryImage</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralQueryDescriptor&lt;T&gt; QueryImage(string queryImage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">queryImage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.NeuralQueryDescriptor-1.html">NeuralQueryDescriptor</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_QueryText_System_String_.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.QueryText(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L68">View Source</a>
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L168">View Source</a>
   </span>
   <a id="OpenSearch_Client_NeuralQueryDescriptor_1_QueryText_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.QueryText*"></a>
   <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_QueryText_System_String_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.QueryText(System.String)">QueryText(string)</h4>
-  <div class="markdown level1 summary"><p>The query text from which to produce queries.</p>
+  <div class="markdown level1 summary"><p>The query text from which to produce queries.
+You must specify at least one of <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryText">QueryText</a> or <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryImage">QueryImage</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -334,6 +629,204 @@ The model must be indexed in OpenSearch before it can be used in Neural Search.<
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">queryText</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.NeuralQueryDescriptor-1.html">NeuralQueryDescriptor</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_QueryTokens_System_Func_OpenSearch_Client_FluentDictionary_System_String_System_Single__OpenSearch_Client_FluentDictionary_System_String_System_Single___.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.QueryTokens(System.Func%7BOpenSearch.Client.FluentDictionary%7BSystem.String%2CSystem.Single%7D%2COpenSearch.Client.FluentDictionary%7BSystem.String%2CSystem.Single%7D%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L190">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_NeuralQueryDescriptor_1_QueryTokens_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.QueryTokens*"></a>
+  <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_QueryTokens_System_Func_OpenSearch_Client_FluentDictionary_System_String_System_Single__OpenSearch_Client_FluentDictionary_System_String_System_Single___" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.QueryTokens(System.Func{OpenSearch.Client.FluentDictionary{System.String,System.Single},OpenSearch.Client.FluentDictionary{System.String,System.Single}})">QueryTokens(Func&lt;FluentDictionary&lt;string, float&gt;, FluentDictionary&lt;string, float&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>A raw sparse vector, expressed as tokens and their weights. Used as an alternative to
+<a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryText">QueryText</a> for direct vector input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralQueryDescriptor&lt;T&gt; QueryTokens(Func&lt;FluentDictionary&lt;string, float&gt;, FluentDictionary&lt;string, float&gt;&gt; selector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="OpenSearch.Client.FluentDictionary-2.html">FluentDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;, <a class="xref" href="OpenSearch.Client.FluentDictionary-2.html">FluentDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.NeuralQueryDescriptor-1.html">NeuralQueryDescriptor</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_Rescore_System_Func_OpenSearch_Client_KnnQueryRescoreContextDescriptor_OpenSearch_Client_IKnnQueryRescoreContext__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.Rescore(System.Func%7BOpenSearch.Client.KnnQueryRescoreContextDescriptor%2COpenSearch.Client.IKnnQueryRescoreContext%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L206">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_NeuralQueryDescriptor_1_Rescore_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.Rescore*"></a>
+  <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_Rescore_System_Func_OpenSearch_Client_KnnQueryRescoreContextDescriptor_OpenSearch_Client_IKnnQueryRescoreContext__" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.Rescore(System.Func{OpenSearch.Client.KnnQueryRescoreContextDescriptor,OpenSearch.Client.IKnnQueryRescoreContext})">Rescore(Func&lt;KnnQueryRescoreContextDescriptor, IKnnQueryRescoreContext&gt;)</h4>
+  <div class="markdown level1 summary"><p>Controls the rescoring of approximate k-NN search results using full-precision vectors.
+Pass a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> to enable or disable rescoring, or a <a class="xref" href="OpenSearch.Client.KnnQueryRescoreContext.html">KnnQueryRescoreContext</a>
+to configure it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralQueryDescriptor&lt;T&gt; Rescore(Func&lt;KnnQueryRescoreContextDescriptor, IKnnQueryRescoreContext&gt; selector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="OpenSearch.Client.KnnQueryRescoreContextDescriptor.html">KnnQueryRescoreContextDescriptor</a>, <a class="xref" href="OpenSearch.Client.IKnnQueryRescoreContext.html">IKnnQueryRescoreContext</a>&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.NeuralQueryDescriptor-1.html">NeuralQueryDescriptor</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_Rescore_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.Rescore(System.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L202">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_NeuralQueryDescriptor_1_Rescore_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.Rescore*"></a>
+  <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_Rescore_System_Nullable_System_Boolean__" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.Rescore(System.Nullable{System.Boolean})">Rescore(bool?)</h4>
+  <div class="markdown level1 summary"><p>Controls the rescoring of approximate k-NN search results using full-precision vectors.
+Pass a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> to enable or disable rescoring, or a <a class="xref" href="OpenSearch.Client.KnnQueryRescoreContext.html">KnnQueryRescoreContext</a>
+to configure it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralQueryDescriptor&lt;T&gt; Rescore(bool? enable = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
+        <td><span class="parametername">enable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenSearch.Client.NeuralQueryDescriptor-1.html">NeuralQueryDescriptor</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1_SemanticFieldSearchAnalyzer_System_String_.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601.SemanticFieldSearchAnalyzer(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L194">View Source</a>
+  </span>
+  <a id="OpenSearch_Client_NeuralQueryDescriptor_1_SemanticFieldSearchAnalyzer_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.SemanticFieldSearchAnalyzer*"></a>
+  <h4 id="OpenSearch_Client_NeuralQueryDescriptor_1_SemanticFieldSearchAnalyzer_System_String_" data-uid="OpenSearch.Client.NeuralQueryDescriptor`1.SemanticFieldSearchAnalyzer(System.String)">SemanticFieldSearchAnalyzer(string)</h4>
+  <div class="markdown level1 summary"><p>An analyzer for tokenizing <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_QueryText">QueryText</a> when using a sparse encoding model.
+Cannot be used together with <a class="xref" href="OpenSearch.Client.INeuralQuery.html#OpenSearch_Client_INeuralQuery_ModelId">ModelId</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NeuralQueryDescriptor&lt;T&gt; SemanticFieldSearchAnalyzer(string analyzer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">analyzer</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -382,7 +875,7 @@ The model must be indexed in OpenSearch before it can be used in Neural Search.<
                     <a href="https://github.com/opensearch-project/opensearch-net/new/main/apiSpec/new?filename=OpenSearch_Client_NeuralQueryDescriptor_1.md&amp;value=---%0Auid%3A%20OpenSearch.Client.NeuralQueryDescriptor%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L57" class="contribution-link">View Source</a>
+                    <a href="https://github.com/thompson-tomo/opensearch-net/blob/main/src/OpenSearch.Client/QueryDsl/Specialized/Neural/NeuralQuery.cs/#L148" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
